@@ -1,0 +1,374 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding-top: 0%;
+}
+
+.LargeText {
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: name;
+    src: url(Aboreto-Regular.ttf);
+  }
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+
+/* Formatting Middle Text Boxes */
+
+.LuxuryText {
+  padding-top: 1cm;
+  background-color: rgb(228, 148, 0);
+  color: white;
+  text-align: center;
+}
+
+.SmallText {
+  font-size: 30px;
+  margin-inline: 4cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 1cm;
+  padding-top: 1cm;
+}
+
+/* Formatting Opacity Boxes */
+
+.TextOpacity {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 240px;
+  width: 100%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity1 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 330px;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity2 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1700px;
+  width: 100%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity3 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1790px;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity4 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1690px;
+  width: 100%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity5 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1780px;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity6 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1480px;
+  width: 100%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  padding-left: 2cm;
+}
+
+.TextOpacity7 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1430px;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  padding-left: 2cm;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+    float: left;
+    width: 72.613202%;
+  }
+
+  .column2 {
+    float: left;
+    width: 27.386798%;
+  }
+
+  .column3 {
+    float: left;
+    width: 50%;
+  }
+
+  .column4 {
+    float: left;
+    width: 50%;
+  }
+
+  .column5 {
+    float: left;
+    width: 54.5%;
+  }
+
+  .column6 {
+    float: left;
+    width: 45.5%;
+  }
+  
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/* Flexing */
+
+.flex {
+    display: flex;
+}
+  
+/* Div in Div Styling */
+
+.Layer2 {
+    background-color: aqua;
+    left: 100%;
+}
+
+.Layer3 {
+    background-color: aqua;
+    right: 100%;
+}
+
+/* Container holding the image and the text */
+
+.container1 {
+    text-align: center;
+    color: white;
+  }
+/* Container holding the image and the text */
+
+.container2 {
+    text-align: center;
+    color: white;
+  }
+
+  /* Container holding the image and the text */
+
+.container3 {
+    text-align: center;
+    color: white;
+  }
+
+/* Centered text */
+
+.centered1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered2 {
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topright {
+    position: absolute;
+    top: 2300px;
+    right: 16px;
+    transform: translate(-50%, -50%);
+  }
+
+  .topright1 {
+    position: absolute;
+    top: 2350px;
+    right: 5px;
+    transform: translate(-50%, -50%);
+  }
+
+/* Logo Styling */
+
+.Logo {
+    height: 120px;
+    width: 200px;
+}
+
+/* Style Header */
+
+header {
+    background-color: rgb(1, 1, 61);
+    width: 100%;
+    height: 4.4cm;
+    opacity: 100%;
+    color: white;
+    font-family: name;
+    font-size: 0.7cm;
+    position: fixed;
+}
+
+header h1 {
+    position: fixed;
+    top: 0;
+    left : 50%;
+    transform: translate(-35%);
+}
+
+header img {
+    width: 80px;
+}
+
+main {
+    background-color: white;
+    color: black;
+    font-family: name;
+    font-size: 50px;
+    margin: 0%;
+    padding-top: 160px;
+    width: 100%;
+}
+
+.Large {
+    height: 100%;
+    width: 100%;
+}
+
+/* Style Footer */
+
+footer {
+    background-color: rgb(1, 1, 61);
+    color: white;
+    height: 6cm;
+    width: 100%;
+    font-family: name;
+
+}
+
+footer h1 {
+    position: sticky;
+    left : 50%;
+    transform: translate(-35%);
+    }
+
+footer p {
+    left : 50%;
+}
+
+/* Style Nav */
+
+nav {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    position: fixed;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 110px;
+    font-family: name;
+    color: black;
+}
+
+nav ol {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Nav text styling */
+
+.ulS {
+    list-style: none;
+}
+
+/* Anchor styling */
+.ulliaS {
+    margin-top: 3cm;
+    text-decoration: none;
+    color: white;
+}
+
+.ulSHeading {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/* Style List for Footer */
+
+.listContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style Bottom */
+.Bottom {
+    background-color: white;
+    color: black;
+    height: 1cm;
+    margin-top: 1cm;
+    font-weight: bolder;
+    text-align: center;
+}
