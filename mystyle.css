@@ -8,6 +8,30 @@ body {
     font-size: 100px;
 }
 
+/* Setting the Z Index */
+
+.zIndex {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.HeaderzIndex {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.NavzIndex {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  margin-top: 3.1cm;
+}
+
 @font-face {
     font-family: name;
     src: url(Aboreto-Regular.ttf);
@@ -118,7 +142,7 @@ body {
   width: 100%;
   padding-top: 0.3cm;
   padding-bottom: 0.3cm;
-  padding-left: 2cm;
+
 }
 
 .TextOpacity7 {
@@ -131,8 +155,16 @@ body {
   font-size: 15px;
   padding-top: 0.3cm;
   padding-bottom: 0.3cm;
-  padding-left: 2cm;
 }
+
+/* Indenting Text */
+
+.LeftIndentedText
+{
+  padding-left: 2cm;
+  width: 60%;
+}
+
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column1 {
