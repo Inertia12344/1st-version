@@ -32,6 +32,8 @@ body {
   margin-top: 3.1cm;
 }
 
+/* Fonts */
+
 @font-face {
     font-family: name;
     src: url(Aboreto-Regular.ttf);
@@ -157,6 +159,152 @@ body {
   padding-bottom: 0.3cm;
 }
 
+.TextOpacity10 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1780px;
+  width: 100%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+
+.TextOpacity11 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1870px;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity12 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1270px;
+  width: 100%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity13 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1360px;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity14 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1520px;
+  width: 46.041%;
+  font-size: 15px;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity15 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1430px;
+  width: 46.041%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  font-size: 1cm;
+}
+
+.TextOpacity16 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1220px;
+  width: 53.959%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  font-size: 15px;
+  right: 0cm;
+}
+
+.TextOpacity17 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1280px;
+  width: 53.959%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  right: 0cm;
+}
+
+.TextOpacity18 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1220px;
+  width: 50%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextOpacity19 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1310px;
+  width: 50%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  font-size: 15px;
+}
+
+.TextOpacity20 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1450px;
+  width: 50%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  right: 0cm;
+}
+
+.TextOpacity21 {
+  opacity: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1400px;
+  width: 50%;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  right: 0cm;
+  font-size: 15px;
+}
+
+
+
 /* Indenting Text */
 
 .LeftIndentedText
@@ -165,9 +313,53 @@ body {
   width: 60%;
 }
 
+.LeftIndentedText1
+{
+  padding-left: 1.5cm;
+}
+
+.LeftIndentedText2
+{
+  padding-left: 1.5cm;
+}
+
+.LeftIndentedText3
+{
+  padding-left: 1.5cm;
+}
+
+.LeftIndentedText4
+{
+  padding-left: 1.5cm;
+}
+
+.LeftIndentedText5
+{
+  padding-left: 1.5cm;
+}
+
+.RightIndentedText1 {
+  padding-right: 1.5cm;
+  text-align: right;
+}
+
+.RightIndentedText2 {
+  padding-right: 1.5cm;
+  text-align: right;
+}
+
+.RightIndentedText3 {
+  padding-right: 1.5cm;
+  text-align: right;
+}
+
+.RightIndentedText4 {
+  padding-right: 1.5cm;
+  text-align: right;
+}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column1 {
+  .column1 {
     float: left;
     width: 72.613202%;
   }
@@ -195,6 +387,16 @@ body {
   .column6 {
     float: left;
     width: 45.5%;
+  }
+
+  .column7 {
+    float: left;
+    width: 46.041%;
+  }
+
+  .column8 {
+    float: left;
+    width: 53.959%;
   }
   
   
@@ -230,14 +432,11 @@ body {
     text-align: center;
     color: white;
   }
-/* Container holding the image and the text */
 
 .container2 {
     text-align: center;
     color: white;
   }
-
-  /* Container holding the image and the text */
 
 .container3 {
     text-align: center;
@@ -305,6 +504,8 @@ header img {
     width: 80px;
 }
 
+/* Main Styling */
+
 main {
     background-color: white;
     color: black;
@@ -370,13 +571,12 @@ nav a {
     text-decoration: none;
 }
 
-/* Nav text styling */
-
 .ulS {
     list-style: none;
 }
 
 /* Anchor styling */
+
 .ulliaS {
     margin-top: 3cm;
     text-decoration: none;
@@ -396,6 +596,7 @@ nav a {
 }
 
 /* Style Bottom */
+
 .Bottom {
     background-color: white;
     color: black;
@@ -403,4 +604,193 @@ nav a {
     margin-top: 1cm;
     font-weight: bolder;
     text-align: center;
+}
+
+/* Formatting About Us Page */
+
+.QuickFinds {
+  background-color: rgb(228, 148, 0);
+  color: white;
+  text-align: center;
+  padding-top: 1.5cm;
+  padding-bottom: 1.3cm;
+
+}
+
+.List {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+  font-size: 8mm;
+}
+
+/* Table Formatting */
+
+.TableHeading {
+  font-size: 10mm;
+}
+
+.TableContent {
+  font-size: 6mm;
+}
+
+.table {
+  width:auto;
+  align-content: center;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  padding-top: 1cm;
+  background-color: rgb(228, 148, 0);
+  color: white;
+  padding-bottom: 1cm;
+  
+}
+
+.Italic {
+    font-style: italic;
+}
+
+
+table, th, td {
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+/* Text box formatting */
+
+.TextBox {
+  background-color: white;
+  color: rgb(1, 1, 61);
+  text-align: center;
+  padding-top: 1cm;
+  padding-bottom: 0.3cm;
+}
+
+.TextBox1 {
+  background-color: white;
+  color: rgb(1, 1, 61);
+  text-align: center;
+  padding-bottom: 0.3cm;
+  font-size: 6mm;
+  padding-left: 2cm;
+  padding-right: 2cm;
+  line-height: 1cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.TextBox2 {
+  color: white;
+  background-color: rgb(228, 148, 0);
+  text-align: center;
+  padding-top: 1cm;
+  padding-bottom: 0.3cm;
+  font-family: name;
+}
+
+.TextBox3 {
+  color: white;
+  background-color: rgb(228, 148, 0);
+  text-align: center;
+  padding-bottom: 0.3cm;
+  font-size: 6mm;
+  padding-left: 2cm;
+  padding-right: 2cm;
+  line-height: 1cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.TextBox4 {
+  background-color: white;
+  color: rgb(1, 1, 61);
+  text-align: center;
+  padding-bottom: 0.3cm;
+  font-size: 6mm;
+  padding-left: 10cm;
+  padding-right: 10cm;
+  line-height: 1cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+
+.TextBox5 {
+  background-color: white;
+  color: rgb(1, 1, 61);
+  text-align: center;
+  padding-bottom: 0.3cm;
+  font-size: 6mm;
+padding-left: 2cm ;
+  line-height: 1cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+
+}
+
+.TextBox6 {
+  background-color: rgb(228, 148, 0) ;
+  color: white;
+  text-align: center;
+  padding-bottom: 1cm;
+  font-size: 6mm;
+  padding-left: 4cm ;
+  padding-right: 4cm;
+  line-height: 1cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding-top: 1cm;
+
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Submit a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Style the search box inside the navigation bar */
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  height: 1cm;
+  margin-right: 16px;
+  font-size: 20px;
+}
+
+.SearchBar {
+  font-family: name;
+  font-size: 14px;
+  font-weight: bolder;
+  font-style: italic;
+  background-color:rgb(241, 241, 241);
+  border: 0cm;
+}
+
+.Submit {
+  font-family: name;
+  font-size: 14px;
+  font-weight: bolder;
+  background-color:rgb(1, 1, 61);
+  color: white;
 }
